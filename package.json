@@ -2,10 +2,9 @@
   "name": "devinhouse-estagius-fast",
   "version": "1.0.0",
   "description": "Exercícios para fixação de conteúdo, sobre sequelize ORM e PostgreSQL",
-  "main": "index.js",
-
+  "main": "server.js",
   "scripts": {
-    "start":"node src/server.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "swagger": "node ./src/utils/swagger.js",
     "dev:swagger": "node ./src/utils/swagger.js"

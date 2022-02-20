@@ -1,5 +1,5 @@
 import express from 'express';
-
+import database from './database'
 
 class App {
     constructor(){
